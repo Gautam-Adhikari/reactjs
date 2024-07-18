@@ -18,14 +18,15 @@ function MyApp(){
 //     },
 //     children: 'Click here! To visit google'
 // }
-
-const reactElement = React.createElement(
+const anotherUser = "Welcome world"
+const ReactElement = React.createElement(
     'a',
     {
         href : 'https://www.google.com',
         target : '_blank'
     },
-    'click to visit google'
+    'click to visit google',
+    anotherUser
 )
 
 const anotherElement = (
@@ -38,5 +39,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     // MyApp()
     // ReactElement
     // anotherElement
-    reactElement
+    <App/>
+
 )

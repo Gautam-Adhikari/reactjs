@@ -30,7 +30,7 @@ const ReactElement = React.createElement(
 )
 
 const anotherElement = (
-    <a href="https://google.com" tager='_blank'>visit google</a>
+    <a href="https://google.com" target='_blank'>visit google</a>
 )
 
 ReactDOM.createRoot(document.getElementById('root')).render(

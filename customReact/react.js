@@ -18,7 +18,7 @@ const reactElement= {
         href: 'https://www.google.com',
         target: '_blank'
     },
-    children: 'Click here! To visit google'
+    children: 'Click here! to visit google'
 }
 const mainContainer = document.querySelector('#root')
 customRender(reactElement,mainContainer);
